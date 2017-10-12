@@ -4,6 +4,24 @@ body{
   margin: auto 0px;
 }
 
+.title1{
+  font-family: 'Rouge Script', cursive;
+  font-size: 2.5em;
+  color: #92b20a;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.title2{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.8em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+  top: -35px;
+}
+
 .navbar{
   margin: 0px;
 }
@@ -78,6 +96,14 @@ body{
 
 h2{
   text-transform: uppercase;
+}
+
+.qst{
+  margin: 100px 0px 0px 0px;
+}
+
+.qsb{
+  margin: 50px 0px 50px 0px;
 }
 
 .page-header{
