@@ -22,38 +22,31 @@ body{
 }
 
 @media (min-width: 576px) {
-  .portada{
-      background: url(".jpg") no-repeat;
-      height: 500px;
-      background-position: 0px -50px;
-      background-attachment: fixed;
-      background-size: cover;
-  }
   .portadaqs{
-      background: url(".jpg") no-repeat;
+      background: url("portadaqs.jpg") no-repeat;
       height: 500px;
-      background-position: 0px -220px;
+      background-position: 0px -300px;
       background-attachment: fixed;
       background-size: cover;
   }
   .portadant{
-      background: url(".jpg") no-repeat;
+      background: url("portadant.jpg") no-repeat;
       height: 500px;
-      background-position: 0px -70px;
+      background-position: 0px -100px;
       background-attachment: fixed;
       background-size: cover;
   }
   .portadanc{
-      background: url(".jpg") no-repeat;
+      background: url("portadanc.jpg") no-repeat;
       height: 500px;
-      background-position: 0px -20px;
+      background-position: 0px -100px;
       background-attachment: fixed;
       background-size: cover;
   }
   .portadac{
-      background: url(".jpg") no-repeat;
+      background: url("portadac.jpg") no-repeat;
       height: 500px;
-      background-position: -250px -75px;
+      background-position: 0px 0px;
       background-attachment: fixed;
       background-size: cover;
   }
