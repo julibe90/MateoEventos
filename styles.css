@@ -1,0 +1,167 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  margin: auto 0px;
+}
+
+.navbar{
+  margin: 0px;
+}
+
+.navbar-default .navbar-nav li a:hover{
+  color: #92b20a;
+}
+
+.navbar-brand{
+  margin: 0px;
+  padding: 0px;
+}
+
+.navbar-brand img{
+  height: 50px;
+}
+
+@media (min-width: 576px) {
+  .portada{
+      background: url(".jpg") no-repeat;
+      height: 500px;
+      background-position: 0px -50px;
+      background-attachment: fixed;
+      background-size: cover;
+  }
+  .portadan{
+      background: url(".jpg") no-repeat;
+      height: 500px;
+      background-position: 0px -220px;
+      background-attachment: fixed;
+      background-size: cover;
+  }
+  .portadaudn{
+      background: url(".jpg") no-repeat;
+      height: 500px;
+      background-position: 0px -70px;
+      background-attachment: fixed;
+      background-size: cover;
+  }
+  .portadap{
+      background: url(".jpg") no-repeat;
+      height: 500px;
+      background-position: 0px -20px;
+      background-attachment: fixed;
+      background-size: cover;
+  }
+  .portadac{
+      background: url(".jpg") no-repeat;
+      height: 500px;
+      background-position: -250px -75px;
+      background-attachment: fixed;
+      background-size: cover;
+  }
+}
+
+@media (min-width: 576px) {
+  .portada img{
+    display: none!important;
+  }
+  .portadan img{
+    display: none!important;
+  }
+  .portadaudn img{
+    display: none!important;
+  }
+  .portadap img{
+    display: none!important;
+  }
+  .portadac img{
+    display: none!important;
+  }
+}
+
+@media (min-width: 576px) {
+  .container-fluid{
+    padding: 0px 75px;
+  }
+}
+
+h2{
+  text-transform: uppercase;
+}
+
+.page-header{
+  margin-top: 30px;
+  border-bottom: 1px solid #92b20a;
+}
+
+a.thumbnail:hover {
+    border-color: #333;
+}
+
+a:focus,
+a:hover {
+  color: #92b20a;
+  text-decoration: none;
+}
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center-block img {
+  height: 200px;
+  width: 200px;
+}
+
+.btn{
+  margin-bottom: 20px;
+  align-content: flex-end;
+}
+
+.carousel-inner .item{
+  height: 500px;
+}
+
+.media-object{
+  height: 100px;
+  margin-bottom: 15px;
+}
+
+@media (max-width: 576px) {
+  .media-object{
+    height: 50px;
+  }
+}
+
+footer{
+  background-color: #e7e7e7;
+  font-size: 12px;
+  padding: 10px 50px 0px 50px;
+  bottom: 0px;
+  display: flex;
+  justify-content: space-between;
+  border-top: transparent 1px solid;
+  margin: 0px auto;
+}
+
+footer p{
+  padding: 10px 10px;
+}
+
+footer a{
+  color: black;
+}
+
+footer a:hover{
+  color: black;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+footer a:visited{
+  color: black;
+}
+
+.icono{
+  padding: 5px;
+}
