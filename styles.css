@@ -14,11 +14,11 @@ body{
 
 .navbar-brand{
   margin: 0px;
-  padding: 0px;
+  padding: 1px 0px;
 }
 
 .navbar-brand img{
-  height: 50px;
+  height: 48px;
 }
 
 @media (min-width: 576px) {
@@ -29,21 +29,21 @@ body{
       background-attachment: fixed;
       background-size: cover;
   }
-  .portadan{
+  .portadaqs{
       background: url(".jpg") no-repeat;
       height: 500px;
       background-position: 0px -220px;
       background-attachment: fixed;
       background-size: cover;
   }
-  .portadaudn{
+  .portadant{
       background: url(".jpg") no-repeat;
       height: 500px;
       background-position: 0px -70px;
       background-attachment: fixed;
       background-size: cover;
   }
-  .portadap{
+  .portadanc{
       background: url(".jpg") no-repeat;
       height: 500px;
       background-position: 0px -20px;
@@ -63,13 +63,13 @@ body{
   .portada img{
     display: none!important;
   }
-  .portadan img{
+  .portadaqs img{
     display: none!important;
   }
-  .portadaudn img{
+  .portadant img{
     display: none!important;
   }
-  .portadap img{
+  .portadanc img{
     display: none!important;
   }
   .portadac img{
