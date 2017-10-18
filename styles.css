@@ -22,6 +22,13 @@ body{
   top: -35px;
 }
 
+.title3{
+  font-family: 'Rouge Script', cursive;
+  font-size: 2.5em;
+  color: #92b20a;
+  text-align: center;
+}
+
 .navbar{
   margin: 0px;
 }
@@ -166,4 +173,9 @@ footer a:visited{
 
 .icono a{
   padding: 5px;
+}
+
+.thumbnail img{
+  height: 250px;
+  width: 300px;
 }
