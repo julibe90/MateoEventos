@@ -142,6 +142,10 @@ a:hover {
   margin-right: auto;
 }
 
+.thumbnail img{
+  height: 250px;
+}
+
 footer{
   background-color: #e7e7e7;
   font-size: 12px;
@@ -173,9 +177,4 @@ footer a:visited{
 
 .icono a{
   padding: 5px;
-}
-
-.thumbnail img{
-  height: 250px;
-  width: 300px;
 }
