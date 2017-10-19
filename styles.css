@@ -159,6 +159,11 @@ a:hover {
   height: 250px;
 }
 
+.logo img{
+  height: 100px;
+  padding: 0px 5px 10px 5px;
+}
+
 footer{
   background-color: #e7e7e7;
   font-size: 12px;
