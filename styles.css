@@ -217,7 +217,15 @@ a:hover {
 }
 
 .thumbnail img{
-  height: 250px;
+  border: 0;
+}
+
+.left-divider-sm {
+    height: 2px;
+    border-bottom: 1px double #92b20a;
+    max-width: 300px;
+    margin-bottom: 10px;
+    margin-top: 5px;
 }
 
 .logo img{
